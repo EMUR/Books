@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
+
+@class UITable2;
 
 @interface SecondViewController : UIViewController
+
+@property (strong, nonatomic) UITable2* UITable2;
+
++(NSArray*)allCategories;
 
 @end
